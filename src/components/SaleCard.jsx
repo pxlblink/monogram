@@ -27,7 +27,7 @@ export default function SaleCard({
         {isSoldOut ? (
           <p className="text-[#6C757D]">Sold Out</p>
         ) : (
-          <p>{price}</p>
+          <p className="font-light text-[#1A2456]">{price}</p>
         )}
       </div>
       {paragraph ?? (
