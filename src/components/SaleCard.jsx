@@ -9,7 +9,7 @@ export default function SaleCard({
 }) {
   return (
     <div
-      className={`${title.toLowerCase().includes("keyboard") && "last:col-span-full"} relative`}
+      className={`${title.toLowerCase().includes("keyboard") && "last:col-span-full"} relative group/card`}
     >
       <div
         style={{
@@ -29,7 +29,15 @@ export default function SaleCard({
         {isSoldOut ? (
           <p className="text-[#6C757D]">Sold Out</p>
         ) : (
-          <p className="font-light text-[#1A2456]">{price}</p>
+          <div className="relative">
+            <p className="font-light text-[#1A2456]">{price}</p>
+            <a
+              href=""
+              className="hidden absolute right-0 -bottom-1 py-2 px-4 font-semibold text-white whitespace-nowrap rounded-4xl text-[12px] bg-[#1A2456] group-hover/card:flex"
+            >
+              SHOP NOW
+            </a>
+          </div>
         )}
       </div>
       {paragraph ?? (
