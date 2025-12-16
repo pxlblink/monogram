@@ -13,8 +13,8 @@ export default function Hero() {
           className="absolute bottom-0 left-1/2 my-10 text-4xl text-white -translate-x-1/2"
         >
           <svg
-            width="1.5em"
-            height="1.5em"
+            width="1.2em"
+            height="1.2em"
             fill="currentColor"
             viewBox="0 0 16 16"
           >
