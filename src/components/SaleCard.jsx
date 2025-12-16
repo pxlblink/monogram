@@ -8,7 +8,9 @@ export default function SaleCard({
   price,
 }) {
   return (
-    <div className="relative">
+    <div
+      className={`${title.toLowerCase().includes("keyboard") && "last:col-span-full"} relative`}
+    >
       <div
         style={{
           "--img-url": `url(${imgSrc})`,
