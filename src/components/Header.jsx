@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="flex fixed right-0 left-0 z-10 justify-between p-2 pr-4 m-2 align-middle text-[#EFC2B3] bg-[#1A2456]">
+    <div className="flex fixed right-0 left-0 z-10 justify-between p-2 pr-4 m-2 align-middle sm:m-4 text-[#EFC2B3] bg-[#1A2456]">
       <svg height="38" viewBox="0 0 520 114" fill="currentColor">
         <title>Monogram</title>
         <path d="M150,36V0H0V114H150ZM144,6V36H78V6ZM6,6H72V72H6ZM72,108H6V78H72Zm72,0H78V78h0V42h66Z"></path>
