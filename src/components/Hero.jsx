@@ -9,7 +9,7 @@ export default function Hero() {
           Discover the perfect console for yours.
         </p>
         <a
-          href=""
+          href="#product-section-1"
           className="absolute bottom-0 left-1/2 my-10 text-4xl text-white -translate-x-1/2"
         >
           <svg
