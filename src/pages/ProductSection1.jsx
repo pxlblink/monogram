@@ -3,7 +3,10 @@ import { firstSectionData } from "../data/productData.js";
 
 export default function ProductSection1() {
   return (
-    <div id="product-section-1" className="grid gap-8 place-content-stretch py-14 px-10 md:grid-cols-2 lg:px-20 bg-[#F0EFED]">
+    <div
+      id="product-section-1"
+      className="grid gap-8 place-content-stretch py-14 px-10 md:grid-cols-2 lg:px-20 bg-[#F0EFED]"
+    >
       {firstSectionData.map((consoleData, index) => (
         <SaleCard
           key={index}
