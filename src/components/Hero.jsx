@@ -1,8 +1,8 @@
 export default function Hero() {
   return (
     <div className="relative bg-gray-600 bg-center bg-cover font-prompt text-[#EFC2B3] bg-[url(/images/hero-img.webp)] bg-blend-multiply">
-      <div className="flex flex-col justify-center items-center py-32 px-5 text-center sm:py-70">
-        <h1 className="text-4xl font-semibold tracking-widest leading-tight max-w-[700px] text-balance">
+      <div className="flex flex-col justify-center items-center py-32 px-5 text-center sm:py-67">
+        <h1 className="mb-4 font-semibold tracking-widest leading-tight text-[37.5px] max-w-[700px] text-balance">
           A CONSOLE FOR EVERY WORKFLOW
         </h1>
         <p className="text-lg font-light">
