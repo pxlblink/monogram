@@ -17,6 +17,7 @@ export default function Hero() {
             height="1.2em"
             fill="currentColor"
             viewBox="0 0 16 16"
+            className="transition-transform duration-500 ease-out hover:scale-[1.3]"
           >
             <path
               fillRule="evenodd"
